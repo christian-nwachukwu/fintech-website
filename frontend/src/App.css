@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700,800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+  --primary: #4154f1;
+  --second: #717ff5;
+  --bgColor: #f6f9ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+  background-color: var(--bgColor);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--second);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
