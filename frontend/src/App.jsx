@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+//import Icons
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'remixicon/fonts/remixicon.css'
 import './App.css'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  //import components
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+      <Header/>
   )
 }
 
