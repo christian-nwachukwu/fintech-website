@@ -1,0 +1,15 @@
+.header {
+    transition: all 0.5s ease-in-out;
+    z-index: 997;  /* Ensures the header is above other content */
+    height: 60px; /* Fixed height for the header */
+    box-shadow: 0 2px 20px rgba(1, 41, 112, 0.1); /* Subtle shadow for depth */ 
+    background-color: #ffffff; /* White background for the header */
+    padding-left: 20px; /* Padding for left side */
+}
+
+.header .toggle-sidebar-btn {
+    font-size: 32px; /* Larger font size for the toggle button */
+    color: #012970; /* Black color for the icon */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    padding-left: 10px; /* Padding for left side of the button */
+}
