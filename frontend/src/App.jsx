@@ -8,11 +8,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 import './App.css'
 import Header from './components/Header'
+import SideBar from './components/SideBar'
 
 function App() {
   //import components
   return (
-      <Header/>
+    <>
+      <Header />
+      <SideBar />
+    </>
+
   )
 }
 
