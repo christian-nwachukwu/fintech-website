@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const NavNotice = () => {
   return (
     <li className="nav-item dropdown">
@@ -10,7 +11,7 @@ const NavNotice = () => {
 
         <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
             <li className="dropdown-header">
-            You hve 4 new notifications
+            You have 4 new notifications
                 <a href="#"><span className="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
 
