@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'
 import Header from './components/Header'
 import SideBar from './components/SideBar'
+import Main from './components/Main'
 
 function App() {
   //import components
@@ -16,6 +17,7 @@ function App() {
     <>
       <Header />
       <SideBar />
+      <Main />
     </>
 
   )

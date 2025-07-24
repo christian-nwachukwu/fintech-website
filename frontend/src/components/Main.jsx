@@ -1,8 +1,12 @@
 import React from 'react'
+import './main.css'
+import PageTitle from './PageTitle'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <main id='main' className='main'>
+        <PageTitle page="Dashboard" />
+    </main>
   )
 }
 
