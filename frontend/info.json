@@ -1,0 +1,132 @@
+{
+    "cards": [
+        {
+            "_id": 1,
+            "name": "Sales",
+            "icon": "bi bi-cart",
+            "amount": 145,
+            "percentage": 0.12,
+            "active": true
+        },
+        {
+            "_id": 2,
+            "name": "Revenue",
+            "icon": "bi bi-currency-dollar",
+            "amount": 3246,
+            "percentage": 0.08,
+            "active": false
+        },
+        {
+            "_id": 3,
+            "name": "Customers",
+            "icon": "bi bi-people",
+            "amount": 1244,
+            "percentage": -0.11,
+            "active": false
+        }
+    ],
+
+    "news": [
+        {
+            "_id": 1,
+            "img": "../assets/img/news/1.jpg",
+            "title": "Sales Growth",
+            "subtitle": "injected humour and the like",
+            "category": "abc"
+        },
+        {
+            "_id": 2,
+            "img": "../assets/img/news/2.jpg",
+            "title": "Revenue Increase",
+            "subtitle": "injected humour and the like",
+            "category": "abc"
+        },
+        {
+            "_id": 3,
+            "img": "../assets/img/news/3.jpg",
+            "title": "Customer Satisfaction",
+            "subtitle": "injected humour and the like",
+            "category": "abc"
+        }
+    ],
+
+    "topselling": [
+        {
+            "_id": 1,
+            "preview": "../assets/img/news/4.jpg",
+            "name": "Product A",
+            "price": 64,
+            "sold": 124        },
+        {
+            "_id": 2,
+            "preview": "../assets/img/news/5.jpg",
+            "name": "Product B",
+            "price": 64,
+            "sold": 124
+        },
+        {
+            "_id": 3,
+            "preview": "../assets/img/news/6.jpg",
+            "name": "Product C",
+            "price": 64,
+            "sold": 124
+        }
+    ],
+
+    "recentsales": [
+        {
+            "_id": 1,
+            "number": "#2457",
+            "customer": "John Doe",
+            "product": "Product A",
+            "price": 124,
+            "status": "Approved"       },
+        {
+            "_id": 2,
+            "number": "#2458",
+            "customer": "John Doe",
+            "product": "Product A",
+            "price": 124,
+            "status": "Approved"
+        },
+        {
+            "_id": 3,
+            "number": "#2459",
+            "customer": "John Doe",
+            "product": "Product A",
+            "price": 124,
+            "status": "Approved"
+        }
+    ],
+
+    "recentactivity": [
+        {
+            "_id": 1,
+            "time": "32 min",
+            "color": "text-success",
+            "content": "skfelagk;oemk qreqlqe g",
+            "highlight": "escalade official"       
+        },
+        {
+            "_id": 2,
+            "time": "2 hours",
+            "color": "text-primary",
+            "content": "skfelagk;oemk qreqlqe g",
+            "highlight": "escalade official"
+        },
+        {
+            "_id": 3,
+            "time": "2 days",
+            "color": "text-info",
+            "content": "skfelagk;oemk qreqlqe g",
+            "highlight": "escalade official"
+        },
+        {
+            "_id": 4,
+            "time": "1 day",
+            "color": "text-warning",
+            "content": "skfelagk;oemk qreqlqe g",
+            "highlight": "escalade official"
+        }
+    ]
+}
