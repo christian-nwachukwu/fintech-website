@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
+import Report from './Report'
 
 const Dashboard = () => {
 
@@ -35,7 +36,9 @@ const Dashboard = () => {
                           cards.map(card =><Card key={card._id} card={card} />
                           ) 
                         } 
-                          
+                      <div className='col-12'>
+                        <Report />
+                      </div>
                     </div>
                 </div>
 
